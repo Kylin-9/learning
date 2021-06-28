@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" modified="2021-06-28T14:12:05.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="a3jp18qvkoFUZ8-pkWvz" version="14.8.0" type="github">
+  <diagram id="W1rA2JD8DQ6to9c7Lf8z" name="第 1 页">
+    <mxGraphModel dx="1697" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-1" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="234" y="120" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-2" value="爬虫" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-3" value="第三方" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PdDfqPffBBl9iaWNdr4m-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="500" as="sourcePoint" />
+            <mxPoint x="230" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PdDfqPffBBl9iaWNdr4m-3" target="PdDfqPffBBl9iaWNdr4m-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="70" as="sourcePoint" />
+            <mxPoint x="240" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-10" value="structured streaming" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="222" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PdDfqPffBBl9iaWNdr4m-1" target="PdDfqPffBBl9iaWNdr4m-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="70" as="sourcePoint" />
+            <mxPoint x="340" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-17" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="234" y="290" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-18" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PdDfqPffBBl9iaWNdr4m-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281.5" y="240" as="sourcePoint" />
+            <mxPoint x="281.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="PdDfqPffBBl9iaWNdr4m-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="PdDfqPffBBl9iaWNdr4m-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="370" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-21" value="hdfs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="400" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-22" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="400" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-23" value="fulme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="194" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-24" value="&lt;h1&gt;聚类步骤&lt;/h1&gt;&lt;p&gt;1.爬虫和第三方数据写入kafka&lt;/p&gt;&lt;p&gt;2. structured streaming 从Kafka实时消费数据，&lt;/p&gt;&lt;span style=&quot;text-align: center&quot;&gt;structured streaming&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="560" width="590" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-34" value="Vertical Flow Layout" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;" parent="1" vertex="1">
+          <mxGeometry x="430" y="100" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-35" value="hanlp分词" style="whiteSpace=wrap;html=1;" parent="PdDfqPffBBl9iaWNdr4m-34" vertex="1">
+          <mxGeometry x="53.75" y="40" width="62.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-38" value="获取词向量-&amp;gt;文档向量" style="whiteSpace=wrap;html=1;" parent="PdDfqPffBBl9iaWNdr4m-34" vertex="1">
+          <mxGeometry x="20" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-39" value="" style="html=1;curved=1;noEdgeStyle=1;orthogonal=1;" parent="PdDfqPffBBl9iaWNdr4m-34" source="PdDfqPffBBl9iaWNdr4m-35" target="PdDfqPffBBl9iaWNdr4m-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="82" />
+              <mxPoint x="85" y="108" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-44" value="" style="html=1;curved=1;noEdgeStyle=1;orthogonal=1;" parent="PdDfqPffBBl9iaWNdr4m-34" source="PdDfqPffBBl9iaWNdr4m-38" target="PdDfqPffBBl9iaWNdr4m-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="505" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="152" />
+              <mxPoint x="85" y="178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-45" value="获取聚类中心计算距离" style="whiteSpace=wrap;html=1;" parent="PdDfqPffBBl9iaWNdr4m-34" vertex="1">
+          <mxGeometry x="22.5" y="190" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-43" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PdDfqPffBBl9iaWNdr4m-10" target="PdDfqPffBBl9iaWNdr4m-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PdDfqPffBBl9iaWNdr4m-46" target="PdDfqPffBBl9iaWNdr4m-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-46" value="离线word2vec,生成词典" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PdDfqPffBBl9iaWNdr4m-47" target="PdDfqPffBBl9iaWNdr4m-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-47" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="690" y="175" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-49" value="词典导入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-51" value="获取词向量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-52" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="300" as="sourcePoint" />
+            <mxPoint x="720" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAKq7IQZr54ixAaHdhtP-1" value="获取聚类中心/更新聚类中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
