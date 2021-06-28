@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T14:12:05.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="a3jp18qvkoFUZ8-pkWvz" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T14:21:03.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-L49OABwc9BsW2Z7t5vA" version="14.8.0" type="github">
   <diagram id="W1rA2JD8DQ6to9c7Lf8z" name="第 1 页">
     <mxGraphModel dx="1697" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,8 +70,8 @@
         <mxCell id="PdDfqPffBBl9iaWNdr4m-23" value="fulme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="194" y="350" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PdDfqPffBBl9iaWNdr4m-24" value="&lt;h1&gt;聚类步骤&lt;/h1&gt;&lt;p&gt;1.爬虫和第三方数据写入kafka&lt;/p&gt;&lt;p&gt;2. structured streaming 从Kafka实时消费数据，&lt;/p&gt;&lt;span style=&quot;text-align: center&quot;&gt;structured streaming&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="560" width="590" height="290" as="geometry" />
+        <mxCell id="PdDfqPffBBl9iaWNdr4m-24" value="&lt;h1&gt;聚类步骤&lt;/h1&gt;&lt;p&gt;1.爬虫和第三方数据写入kafka&lt;/p&gt;&lt;p&gt;2. structured streaming 从Kafka实时消费数据，&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2.1 hanlp分词&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2.2 计算词的TF-IDF(IDF离线生成)&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2.3 从word2vec模型中获取词向量，word2vec模型离线训练生成&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2.3 用词向量和TF-IDF 加权平均得到文档向量&lt;/p&gt;&lt;p&gt;3. 从redis 中获取聚类中心&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3.1 从redis加载聚类中心，计算距离，满足则获取聚类中心id，并更新聚类中心，否则新增次向量为新聚类中心&lt;br&gt;&lt;/p&gt;&lt;p&gt;4.sink 数据到kafka, 新增数据所属聚类id字段&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="21" y="561" width="690" height="320" as="geometry" />
         </mxCell>
         <mxCell id="PdDfqPffBBl9iaWNdr4m-34" value="Vertical Flow Layout" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;" parent="1" vertex="1">
           <mxGeometry x="430" y="100" width="170" height="230" as="geometry" />
